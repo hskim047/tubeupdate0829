@@ -9,6 +9,10 @@ import UIKit
 
 class NewUserViewController: UIViewController {
     
+    let image1 = UIImage(named: "선생님과 버튼 연결")
+    let image2 = UIImage(named: "학생과 버튼 연결")
+    let image3 = UIImage(named: "선생님과 버튼 연결-1")
+    
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var enterInvitationCode: UILabel!
     @IBOutlet weak var typeInvitationCode: UITextField!
@@ -22,23 +26,23 @@ class NewUserViewController: UIViewController {
         
         switch segmentedControl.selectedSegmentIndex
             {
-            case 0:
-                enterInvitationCode.text = "초대 코드 입력"
-                typeInvitationCode.placeholder = "초대번호 5자리"
-                connectButton.setTitle("연결", for: .normal)
+        case 0: // 학생
+            enterInvitationCode.text = "선생님께 받은 초대 코드를 입력하세요!"
+            typeInvitationCode.placeholder = "초대번호 5자리"
+            connectButton.setImage(image1, for: .normal)
 
-            case 1:
-                enterInvitationCode.text = "수업명과 학생명 입력"
-                typeInvitationCode.placeholder = "Ex: 영어 김예원"
-                connectButton.setTitle("생성", for: .normal)
-                
-            case 2:
-                enterInvitationCode.text = "초대 코드 입력"
-                typeInvitationCode.placeholder = "초대번호 5자리"
-                connectButton.setTitle("연결", for: .normal)
+        case 1: // 선생님
+            enterInvitationCode.text = "수업명과 학생명을 입력하세요!"
+            typeInvitationCode.placeholder = "Ex: 영어 김예원"
+            connectButton.setImage(image2, for: .normal)
+            
+        case 2: // 학부모
+            enterInvitationCode.text = "선생님께 받은 초대 코드를 입력하세요!"
+            typeInvitationCode.placeholder = "초대번호 5자리"
+            connectButton.setImage(image3, for: .normal)
 
-            default:
-                break
+        default:
+            break
             }
     }
     

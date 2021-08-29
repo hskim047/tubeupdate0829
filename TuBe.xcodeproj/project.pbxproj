@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD61127426CE78CC009306AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127326CE78CC009306AA /* Constants.swift */; };
+		CD61127626CE78D8009306AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127526CE78D8009306AA /* Message.swift */; };
+		CD61127826CE7948009306AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127726CE7948009306AA /* SettingsViewController.swift */; };
+		CD61127C26CE79D8009306AA /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */; };
+		CD61127D26CE79D8009306AA /* MessageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */; };
+		CD758AFE26C3E799007636A3 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD758AFD26C3E799007636A3 /* FSCalendar.framework */; };
 		CD78DE01266471420058C344 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78DE00266471420058C344 /* NewUserViewController.swift */; };
 		CD78DE0326647C830058C344 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78DE0226647C830058C344 /* HomeViewController.swift */; };
-		CDC1CF0F264CBD100034F9A4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC1CF0E264CBD100034F9A4 /* Message.swift */; };
 		CDE07773264657F60058EF16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07772264657F60058EF16 /* AppDelegate.swift */; };
 		CDE07775264657F60058EF16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07774264657F60058EF16 /* SceneDelegate.swift */; };
 		CDE07777264657F60058EF16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07776264657F60058EF16 /* ViewController.swift */; };
@@ -43,12 +48,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD758B0026C3E799007636A3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9278C40E40D816B4CF997A13 /* Pods-TuBe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuBe.debug.xcconfig"; path = "Target Support Files/Pods-TuBe/Pods-TuBe.debug.xcconfig"; sourceTree = "<group>"; };
 		A11F79F50B844D988E6600C6 /* Pods-TuBe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuBe.release.xcconfig"; path = "Target Support Files/Pods-TuBe/Pods-TuBe.release.xcconfig"; sourceTree = "<group>"; };
+		CD61127326CE78CC009306AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD61127526CE78D8009306AA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		CD61127726CE7948009306AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = "<group>"; };
+		CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCellTableViewCell.xib; sourceTree = "<group>"; };
+		CD758AFD26C3E799007636A3 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD78DE00266471420058C344 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
 		CD78DE0226647C830058C344 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		CDC1CF0E264CBD100034F9A4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		CDE0776F264657F60058EF16 /* TuBe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuBe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE07772264657F60058EF16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE07774264657F60058EF16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD758AFE26C3E799007636A3 /* FSCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +129,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD61127226CE78B1009306AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD61127326CE78CC009306AA /* Constants.swift */,
+				CD61127526CE78D8009306AA /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD61127926CE79D8009306AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */,
+				CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CDE07766264657F60058EF16 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +172,8 @@
 		CDE07771264657F60058EF16 /* TuBe */ = {
 			isa = PBXGroup;
 			children = (
+				CD61127926CE79D8009306AA /* Views */,
+				CD61127226CE78B1009306AA /* Models */,
 				CDE077BB2647930E0058EF16 /* Controllers */,
 				CDE07772264657F60058EF16 /* AppDelegate.swift */,
 				CDE07774264657F60058EF16 /* SceneDelegate.swift */,
@@ -166,12 +210,12 @@
 			children = (
 				CDF1F5702648149500BD16D8 /* LoginViewController.swift */,
 				CDF1F56E2648132300BD16D8 /* ChatViewController.swift */,
-				CDC1CF0E264CBD100034F9A4 /* Message.swift */,
 				CDF1F56C2648124600BD16D8 /* RegisterViewController.swift */,
 				CDE07776264657F60058EF16 /* ViewController.swift */,
 				CDE077BC2647932A0058EF16 /* CalendarViewController.swift */,
 				CDF9F345265B3C7E006E1270 /* TimerViewController.swift */,
 				CD78DE00266471420058C344 /* NewUserViewController.swift */,
+				CD61127726CE7948009306AA /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +223,7 @@
 		E220688344DC57B8C3FC3276 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD758AFD26C3E799007636A3 /* FSCalendar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +240,7 @@
 				CDE0776C264657F60058EF16 /* Frameworks */,
 				CDE0776D264657F60058EF16 /* Resources */,
 				2156970A9B4DED531C6D3CBB /* [CP] Embed Pods Frameworks */,
+				CD758B0026C3E799007636A3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE0777F264657F70058EF16 /* LaunchScreen.storyboard in Resources */,
+				CD61127D26CE79D8009306AA /* MessageCellTableViewCell.xib in Resources */,
 				CDF1F56B2648101100BD16D8 /* GoogleService-Info.plist in Resources */,
 				CDE0777C264657F70058EF16 /* Assets.xcassets in Resources */,
 				CDE0777A264657F60058EF16 /* Main.storyboard in Resources */,
@@ -365,10 +412,13 @@
 				CDF1F56D2648124600BD16D8 /* RegisterViewController.swift in Sources */,
 				CDE07777264657F60058EF16 /* ViewController.swift in Sources */,
 				CDE07773264657F60058EF16 /* AppDelegate.swift in Sources */,
+				CD61127C26CE79D8009306AA /* MessageCellTableViewCell.swift in Sources */,
 				CD78DE0326647C830058C344 /* HomeViewController.swift in Sources */,
-				CDC1CF0F264CBD100034F9A4 /* Message.swift in Sources */,
+				CD61127826CE7948009306AA /* SettingsViewController.swift in Sources */,
+				CD61127626CE78D8009306AA /* Message.swift in Sources */,
 				CDF1F56F2648132300BD16D8 /* ChatViewController.swift in Sources */,
 				CDE07775264657F60058EF16 /* SceneDelegate.swift in Sources */,
+				CD61127426CE78CC009306AA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
