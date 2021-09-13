@@ -11,6 +11,13 @@ import Firebase
 import FirebaseFirestore
 
 class ChatViewController: UIViewController{
+    
+    @IBOutlet weak var chatTableView: UITableView!
+    
+    
+    
+    
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
@@ -114,10 +121,7 @@ extension ChatViewController: UITableViewDataSource {
             cell.label.textAlignment = .left
         }
         return cell
-        
-        
-    
-    
     }
+
 
 }

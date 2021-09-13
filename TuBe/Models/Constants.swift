@@ -10,6 +10,10 @@ struct K {
     static let cellNibName = "MessageCellTableViewCell"
     static let registerSegue = "RegisterToChat"
     static let loginSegue = "LoginToChat"
+    static let cardIdentifier = "ReusableCard"
+    static let cardNibName = "CardTableViewCell"
+    static let listIdentifier = "ReusableChat"
+    static let listNibName = "ChatTableViewCell"
     
     struct BrandColors {
         static let purple = "BrandPurple"

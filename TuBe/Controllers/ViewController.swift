@@ -9,15 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet weak var dateButton: UIButton!
+    @IBOutlet weak var countButton: UIButton!
+    @IBAction func dateButtonPressed(_ sender: UIButton) {
+        sender.isSelected.toggle()
+    }
+    
     override func viewDidLoad() {
             super.viewDidLoad()
             // Do any additional setup after loading the view, typically from a nib.
     
     }
-    @IBAction func TeacherPressed(_ sender: Any) {
-        performSegue(withIdentifier: "goToTeacherHome", sender: self)
-    }
+    
+    
 
     
 

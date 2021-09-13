@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "중복 확인 버튼.png",
+      "filename" : "중복 확인 버튼.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "중복 확인 버튼@2x.png",
+      "filename" : "중복 확인 버튼@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "중복 확인 버튼@3x.png",
+      "filename" : "중복 확인 버튼@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

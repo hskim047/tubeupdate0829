@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "인증요청.png",
+      "filename" : "parent.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "인증요청@2x.png",
+      "filename" : "parent@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "인증요청@3x.png",
+      "filename" : "parent@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

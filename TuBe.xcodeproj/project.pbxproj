@@ -12,9 +12,13 @@
 		CD61127826CE7948009306AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127726CE7948009306AA /* SettingsViewController.swift */; };
 		CD61127C26CE79D8009306AA /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */; };
 		CD61127D26CE79D8009306AA /* MessageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */; };
+		CD6B2D7026E0E68B005C4A6D /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6B2D6E26E0E68B005C4A6D /* CardTableViewCell.xib */; };
+		CD6B2D7226E0E8FD005C4A6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2D7126E0E8FD005C4A6D /* HomeViewController.swift */; };
+		CD6B2D7426E4E003005C4A6D /* ChatlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2D7326E4E003005C4A6D /* ChatlistViewController.swift */; };
+		CD6B2D7726E4E102005C4A6D /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2D7526E4E102005C4A6D /* ChatTableViewCell.swift */; };
+		CD6B2D7826E4E102005C4A6D /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6B2D7626E4E102005C4A6D /* ChatTableViewCell.xib */; };
 		CD758AFE26C3E799007636A3 /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD758AFD26C3E799007636A3 /* FSCalendar.framework */; };
 		CD78DE01266471420058C344 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78DE00266471420058C344 /* NewUserViewController.swift */; };
-		CD78DE0326647C830058C344 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD78DE0226647C830058C344 /* HomeViewController.swift */; };
 		CDE07773264657F60058EF16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07772264657F60058EF16 /* AppDelegate.swift */; };
 		CDE07775264657F60058EF16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07774264657F60058EF16 /* SceneDelegate.swift */; };
 		CDE07777264657F60058EF16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE07776264657F60058EF16 /* ViewController.swift */; };
@@ -69,9 +73,13 @@
 		CD61127726CE7948009306AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = "<group>"; };
 		CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCellTableViewCell.xib; sourceTree = "<group>"; };
+		CD6B2D6E26E0E68B005C4A6D /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		CD6B2D7126E0E8FD005C4A6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD6B2D7326E4E003005C4A6D /* ChatlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlistViewController.swift; sourceTree = "<group>"; };
+		CD6B2D7526E4E102005C4A6D /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		CD6B2D7626E4E102005C4A6D /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
 		CD758AFD26C3E799007636A3 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD78DE00266471420058C344 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
-		CD78DE0226647C830058C344 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CDE0776F264657F60058EF16 /* TuBe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuBe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE07772264657F60058EF16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE07774264657F60058EF16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +151,9 @@
 			children = (
 				CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */,
 				CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */,
+				CD6B2D6E26E0E68B005C4A6D /* CardTableViewCell.xib */,
+				CD6B2D7526E4E102005C4A6D /* ChatTableViewCell.swift */,
+				CD6B2D7626E4E102005C4A6D /* ChatTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,7 +189,6 @@
 				CDE07772264657F60058EF16 /* AppDelegate.swift */,
 				CDE07774264657F60058EF16 /* SceneDelegate.swift */,
 				CDE07778264657F60058EF16 /* Main.storyboard */,
-				CD78DE0226647C830058C344 /* HomeViewController.swift */,
 				CDE0777B264657F70058EF16 /* Assets.xcassets */,
 				CDE0777D264657F70058EF16 /* LaunchScreen.storyboard */,
 				CDE07780264657F70058EF16 /* Info.plist */,
@@ -216,6 +226,8 @@
 				CDF9F345265B3C7E006E1270 /* TimerViewController.swift */,
 				CD78DE00266471420058C344 /* NewUserViewController.swift */,
 				CD61127726CE7948009306AA /* SettingsViewController.swift */,
+				CD6B2D7126E0E8FD005C4A6D /* HomeViewController.swift */,
+				CD6B2D7326E4E003005C4A6D /* ChatlistViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -339,6 +351,8 @@
 				CDF1F56B2648101100BD16D8 /* GoogleService-Info.plist in Resources */,
 				CDE0777C264657F70058EF16 /* Assets.xcassets in Resources */,
 				CDE0777A264657F60058EF16 /* Main.storyboard in Resources */,
+				CD6B2D7826E4E102005C4A6D /* ChatTableViewCell.xib in Resources */,
+				CD6B2D7026E0E68B005C4A6D /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,14 +421,16 @@
 			files = (
 				CDF1F5712648149500BD16D8 /* LoginViewController.swift in Sources */,
 				CDF9F346265B3C7E006E1270 /* TimerViewController.swift in Sources */,
+				CD6B2D7426E4E003005C4A6D /* ChatlistViewController.swift in Sources */,
 				CD78DE01266471420058C344 /* NewUserViewController.swift in Sources */,
 				CDE077BD2647932A0058EF16 /* CalendarViewController.swift in Sources */,
 				CDF1F56D2648124600BD16D8 /* RegisterViewController.swift in Sources */,
 				CDE07777264657F60058EF16 /* ViewController.swift in Sources */,
 				CDE07773264657F60058EF16 /* AppDelegate.swift in Sources */,
 				CD61127C26CE79D8009306AA /* MessageCellTableViewCell.swift in Sources */,
-				CD78DE0326647C830058C344 /* HomeViewController.swift in Sources */,
 				CD61127826CE7948009306AA /* SettingsViewController.swift in Sources */,
+				CD6B2D7226E0E8FD005C4A6D /* HomeViewController.swift in Sources */,
+				CD6B2D7726E4E102005C4A6D /* ChatTableViewCell.swift in Sources */,
 				CD61127626CE78D8009306AA /* Message.swift in Sources */,
 				CDF1F56F2648132300BD16D8 /* ChatViewController.swift in Sources */,
 				CDE07775264657F60058EF16 /* SceneDelegate.swift in Sources */,

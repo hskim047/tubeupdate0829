@@ -6,7 +6,29 @@
 //
 
 import UIKit
+import EventKit
 import FSCalendar
+import EventKitUI
+
+class EKRecurrenceDayOfWeek : NSObject{
+    let eventstore = EKEventStore()
+    let dateFormatter = DateFormatter()
+
+    func createNewCalendar(withName name: String) {
+        let calendar = EKCalendar()
+        calendar.title = name
+        calendar.cgColor = UIColor.purple.cgColor
+
+    }
+    
+    
+    
+
+
+    
+}
+
+
 class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
 
     
@@ -44,6 +66,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
         guard let eventDate = dateFormatter.date(from: "Thursday-08-2021") else {return 0}
         if date.compare(eventDate) == .orderedSame {
             return 1
+            print(eventDate)
         }
         return 0
     }
