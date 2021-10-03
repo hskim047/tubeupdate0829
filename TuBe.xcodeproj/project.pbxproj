@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2174C8270641A1004F098F /* calendarEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2174C7270641A1004F098F /* calendarEvents.swift */; };
+		CD2174CA2706588F004F098F /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2174C92706588F004F098F /* CardTableViewCell.swift */; };
 		CD61127426CE78CC009306AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127326CE78CC009306AA /* Constants.swift */; };
 		CD61127626CE78D8009306AA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127526CE78D8009306AA /* Message.swift */; };
 		CD61127826CE7948009306AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD61127726CE7948009306AA /* SettingsViewController.swift */; };
@@ -68,6 +70,8 @@
 /* Begin PBXFileReference section */
 		9278C40E40D816B4CF997A13 /* Pods-TuBe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuBe.debug.xcconfig"; path = "Target Support Files/Pods-TuBe/Pods-TuBe.debug.xcconfig"; sourceTree = "<group>"; };
 		A11F79F50B844D988E6600C6 /* Pods-TuBe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuBe.release.xcconfig"; path = "Target Support Files/Pods-TuBe/Pods-TuBe.release.xcconfig"; sourceTree = "<group>"; };
+		CD2174C7270641A1004F098F /* calendarEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarEvents.swift; sourceTree = "<group>"; };
+		CD2174C92706588F004F098F /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		CD61127326CE78CC009306AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CD61127526CE78D8009306AA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		CD61127726CE7948009306AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 			children = (
 				CD61127326CE78CC009306AA /* Constants.swift */,
 				CD61127526CE78D8009306AA /* Message.swift */,
+				CD2174C7270641A1004F098F /* calendarEvents.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			children = (
 				CD61127A26CE79D8009306AA /* MessageCellTableViewCell.swift */,
 				CD61127B26CE79D8009306AA /* MessageCellTableViewCell.xib */,
+				CD2174C92706588F004F098F /* CardTableViewCell.swift */,
 				CD6B2D6E26E0E68B005C4A6D /* CardTableViewCell.xib */,
 				CD6B2D7526E4E102005C4A6D /* ChatTableViewCell.swift */,
 				CD6B2D7626E4E102005C4A6D /* ChatTableViewCell.xib */,
@@ -219,7 +225,6 @@
 			isa = PBXGroup;
 			children = (
 				CDF1F5702648149500BD16D8 /* LoginViewController.swift */,
-				CDF1F56E2648132300BD16D8 /* ChatViewController.swift */,
 				CDF1F56C2648124600BD16D8 /* RegisterViewController.swift */,
 				CDE07776264657F60058EF16 /* ViewController.swift */,
 				CDE077BC2647932A0058EF16 /* CalendarViewController.swift */,
@@ -228,6 +233,7 @@
 				CD61127726CE7948009306AA /* SettingsViewController.swift */,
 				CD6B2D7126E0E8FD005C4A6D /* HomeViewController.swift */,
 				CD6B2D7326E4E003005C4A6D /* ChatlistViewController.swift */,
+				CDF1F56E2648132300BD16D8 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -422,9 +428,11 @@
 				CDF1F5712648149500BD16D8 /* LoginViewController.swift in Sources */,
 				CDF9F346265B3C7E006E1270 /* TimerViewController.swift in Sources */,
 				CD6B2D7426E4E003005C4A6D /* ChatlistViewController.swift in Sources */,
+				CD2174C8270641A1004F098F /* calendarEvents.swift in Sources */,
 				CD78DE01266471420058C344 /* NewUserViewController.swift in Sources */,
 				CDE077BD2647932A0058EF16 /* CalendarViewController.swift in Sources */,
 				CDF1F56D2648124600BD16D8 /* RegisterViewController.swift in Sources */,
+				CD2174CA2706588F004F098F /* CardTableViewCell.swift in Sources */,
 				CDE07777264657F60058EF16 /* ViewController.swift in Sources */,
 				CDE07773264657F60058EF16 /* AppDelegate.swift in Sources */,
 				CD61127C26CE79D8009306AA /* MessageCellTableViewCell.swift in Sources */,

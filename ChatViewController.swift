@@ -10,13 +10,11 @@ import MessageKit
 import Firebase
 import FirebaseFirestore
 
-class ChatViewController: UIViewController{
+
+class ChatViewController: UIViewController {
+    
     
     @IBOutlet weak var chatTableView: UITableView!
-    
-    
-    
-    
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
@@ -30,9 +28,9 @@ class ChatViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         tableView.dataSource = self
-        navigationItem.hidesBackButton = true
+        navigationItem.hidesBackButton = false
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
         
@@ -103,7 +101,7 @@ extension ChatViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath)
         as! MessageCellTableViewCell
         cell.label.text = messages[indexPath.row].body
-        
+    
         //This is a message from the current user.
         if message.sender == Auth.auth().currentUser?.email {
             cell.leftImageView.isHidden = true

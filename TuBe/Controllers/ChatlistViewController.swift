@@ -7,25 +7,8 @@
 
 import UIKit
 
-class ChatTableViewController: UITableViewCell{
-    
-    
-}
 class ChatlistViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let cellSpacingHeight: CGFloat = 15
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.listIdentifier, for: indexPath) as! ChatTableViewCell
-        
-        return cell
-    }
-    
-
     @IBOutlet weak var chatTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,9 +18,25 @@ class ChatlistViewController: UIViewController, UITableViewDelegate, UITableView
         
         chatTableView.register(UINib(nibName: K.listNibName, bundle: nil), forCellReuseIdentifier: K.listIdentifier)
    
-        
-        // Do any additional setup after loading the view.
+        }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
     }
+
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.listIdentifier, for: indexPath) as! ChatTableViewCell
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "individualChat", sender: self)
+    }
+
+    
     
     /*
     // MARK: - Navigation

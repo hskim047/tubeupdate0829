@@ -4,7 +4,7 @@
 //
 //  Created by 김효서✨ on 2021/09/02.
 //
-/*
+
 import UIKit
 
 class inputCard : UITableViewCell {
@@ -88,4 +88,4 @@ class ClassFooterCell : UITableViewCell{
     */
 
 }
-*/
+
